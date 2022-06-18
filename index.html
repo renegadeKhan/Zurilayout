@@ -1,0 +1,120 @@
+<!--doctype html-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>zuriflexbox.html</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+   main{
+   display:flex;
+   width:100%;
+   height:600px;
+   flex-wrap:nowrap;
+   flex-direction:row;
+   justify-content:center;
+   align-items:center;
+   font-family:'Lexend Deca',sans-seriff;
+   }
+   #sedan{
+   width:20%;
+   height:400px;
+  font-family:'Lexend Deca',sans-seriff;
+   background-color:hsl(31, 77%, 52%);
+  
+ 
+   
+  
+   }
+   #suv{
+   width:20%;
+   height:400px;
+   background-color :hsl(184, 100%, 22%);
+   }
+   #luxury{
+   width:20%;
+   height:400px;
+   background-color:hsl(179, 100%, 13%)
+   }
+   .images{
+   margin-top:30px;
+   margin-left:32px;
+   margin-bottom:10px;
+      }
+	h2{
+	margin-left:32px;
+	color:hsl(0, 0%, 95%);
+	}
+	p{
+	margin-left:32px;
+	margin-bottom:80px;
+	color:hsla(0, 0%, 100%, 0.75);
+	}
+	a{
+	display:block;
+	width:100px;
+	height:30px;
+	color:hsl(31, 77%, 52%);
+	border:1px solid black;
+	background-color:hsl(0, 0%, 95%);
+	border-radius:5px;
+	text-decoration:none;
+	text-align:center;
+	padding-top:10px;
+	margin-left:32px;
+	}
+	#learnsuv{
+	color:hsl(184, 100%, 22%);
+	}
+	#learnlurxury{
+	color:hsl(179, 100%, 13%);
+	}
+  </style>
+</head>
+<body>
+  <main>
+    
+    <div id="sedan">
+	
+	<image src="icon-sedans.svg"
+	       alt="sedan icon"
+		   height="50px"
+		   width="50px"
+		   class="images"/>
+	<h2>SEDANS</h2>
+	<p>
+	Choose a Sedan for its <br/>affordability and excellent <br/> fuel economy.
+	It is Ideal for <br/> cruising round a city or on<br/> your next road trip.
+	</p>
+	<a href="">Learn More</a>
+	</div>
+    <div id="suv">
+	<image src="icon-suvs.svg"
+	       alt="suv icon"
+		   height="50px"
+		   width="50px"
+		   class="images"/>
+	<h2>SUVS</h2>
+    <p>
+	Take an SUV for spacious <br/>interior,power and<br/> versatility.Perfect for your<br/> next family vacation
+	and <br/>off-road adventures.
+	</p>	
+	<a id="learnsuv"href="">Learn More</a>
+	</div>
+    <div id="luxury">
+	<image src="icon-luxury.svg"
+	       alt="luxury icon"
+		   height="50px"
+		   width="50px"
+		   class="images"/>
+	<h2>LUXURY</h2>
+	<p>
+	Cruise in the best car brands<br/> without bloated prices.<br/>Enjoy the enhanced comfort<br/> of a luxury rental
+	and arrive<br/> in style.
+	</p>
+	<a href="" id="learnlurxury">Learn More</a>
+	</div>
+	
+  </main>
+</body>
+</html>
